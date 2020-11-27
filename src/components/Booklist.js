@@ -5,14 +5,12 @@ import { getBookListData } from "../services/httpService";
 class BookList extends Component {
 	state = {
 		books: [],
-		bookTitle: [],
 	};
 
 	async componentDidMount() {
 		const { data } = await getBookListData();
 		const books = data.results.books;
-		const bookTitle = data.results.books[0].title;
-		this.setState({ books, bookTitle });
+		this.setState({ books });
 		console.log("Result : ", data);
 	}
 
@@ -23,7 +21,14 @@ class BookList extends Component {
 
 				{this.state.books.map((book) => {
 					console.log(book.title);
-					return <Book title={book.title} />;
+					return (
+						<Book
+							title={book.title}
+							imgUrl={book.book_image}
+							imgHeight={book.book_image_height}
+							imgWidth={book.book_image_width}
+						/>
+					);
 				})}
 			</div>
 		);
