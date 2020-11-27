@@ -8,8 +8,6 @@ class Booklist extends Component {
 			<div>
 				<h1>NYTimes Best Selling Books</h1>
 				<Book />
-				<Book />
-				<Book />
 			</div>
 		);
 	}
