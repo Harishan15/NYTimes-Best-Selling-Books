@@ -5,8 +5,8 @@ class Book extends Component {
 	state = {};
 
 	async componentDidMount() {
-		const result = await getBookListData();
-		console.log(result);
+		const { data: result } = await getBookListData();
+		console.log(result.results.books[1].title);
 	}
 
 	render() {
