@@ -1,4 +1,4 @@
-import BookList from "./components/Booklist";
+import BookList from "./components/BookList";
 import "./App.css";
 
 function App() {
