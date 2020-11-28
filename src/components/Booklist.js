@@ -23,10 +23,14 @@ class BookList extends Component {
 					console.log(book.title);
 					return (
 						<Book
+							key={book.primary_isbn13}
 							title={book.title}
 							imgUrl={book.book_image}
 							imgHeight={book.book_image_height}
 							imgWidth={book.book_image_width}
+							amazonUrl={book.amazon_product_url}
+							contributor={book.contributor}
+							description={book.description}
 						/>
 					);
 				})}
