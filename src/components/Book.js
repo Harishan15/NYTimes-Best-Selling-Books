@@ -11,12 +11,7 @@ const Book = ({
 }) => {
 	return (
 		<div className="col d-flex justify-content-center">
-			<div
-				className="card book-card mb-3"
-				style={{
-					width: "230px",
-				}}
-			>
+			<div className="card book-card mb-3">
 				<img
 					src={imgUrl}
 					className="card-img-top"
@@ -29,9 +24,7 @@ const Book = ({
 					{/* <p className="card-text">{contributor}</p> */}
 					<h6 className="card-subtitle mb-2 text-muted">{contributor}</h6>
 
-					<p className="card-text" style={{ fontSize: "14px" }}>
-						{description}
-					</p>
+					<p className="card-text">{description}</p>
 					<a href={amazonUrl} className="btn btn-primary">
 						Buy the Book
 					</a>

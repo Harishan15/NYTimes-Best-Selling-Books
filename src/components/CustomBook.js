@@ -1,4 +1,5 @@
 import React from "react";
+import "./Book.css";
 
 const Book = ({
 	imgUrl,
@@ -10,25 +11,34 @@ const Book = ({
 	description,
 }) => {
 	return (
-		<div className="col-3 d-flex justify-content-center mt-3">
-			{/* <div className="col d-flex justify-content-center mt-3"> */}
-			<div className="card mb-3 p-0" style={{ maxWidth: 540 }}>
-				<div className="row no-gutters">
-					<div className="col-md-4 p-1">
-						<img src={imgUrl} className="card-img" alt={title} />
-					</div>
-					<div className="col-md-8">
-						<div className="card-body">
-							<h5 className="card-title">{title}</h5>
-							<h6 className="card-subtitle mb-2 text-muted">{contributor}</h6>
+		<div className="card custom-card">
+			<img src={imgUrl} className="card-img-top custom-card-img" alt={title} />
+			<div className="card-body">
+				<h5 className="card-title">{title}</h5>
+				<h6 className="card-subtitle mb-2 text-muted">{contributor}</h6>
+				<a href="/" className="btn btn-sm btn-primary">
+					more details
+				</a>
+			</div>
 
-							<p className="card-text">
-								<small className="text-muted">Last updated 3 mins ago</small>
-							</p>
-						</div>
+			{/* <div className="row no-gutters">
+				<div className="col-4 d-flex align-items-center">
+					<img src={imgUrl} className="card-img d-none" alt={title} />
+				</div>
+				<div className="col-8 ">
+					<div className="card-body">
+						<h5 className="card-title">{title}</h5>
+						<h6 className="card-subtitle mb-2 text-muted">{contributor}</h6>
+
+						<p className="card-text" style={{ fontSize: "14px" }}>
+						 {description} 
+						</p>
+						<a href={amazonUrl} className="btn btn-sm btn-primary">
+								Buy on Amazon
+							</a> 
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 			{/* <div
 				className="card book-card mb-3"

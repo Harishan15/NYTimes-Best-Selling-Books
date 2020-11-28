@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Book from "./CustomBook";
+import Book from "./NewBook";
 import { getBookListData } from "../services/httpService";
+import "./NewBook.css";
 
 class BookList extends Component {
 	state = {
@@ -16,7 +17,7 @@ class BookList extends Component {
 
 	render() {
 		return (
-			<div className="row justify-content-center mx-1">
+			<div className="d-flex flex-wrap card-pos">
 				{this.state.books.map((book) => {
 					console.log(book.title);
 					return (
