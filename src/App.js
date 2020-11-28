@@ -1,24 +1,27 @@
 import React from "react";
+import { Switch, Route, Redirect } from "react-router-dom";
 import BookList from "./components/BookList";
 import Navbar from "./components/Navbar";
+import Heading from "./components/Heading";
+import BookDetails from "./components/BookDetails";
 import "./App.css";
 
 function App() {
 	return (
 		<React.Fragment>
 			<Navbar />
-			<div className="container-fluid mt-2">
-				<h1
-					style={{
-						fontFamily: "Playfair Display",
-						fontSize: "2rem",
-						marginLeft: "10px",
-					}}
-				>
-					New York Times Best Selling Books
-				</h1>
-				<BookList />
-			</div>
+			<main className="container-fluid mt-2">
+				<Heading />
+				{/* <BookList /> */}
+				<Switch>
+					<Route path="/books" exact component={BookList} />
+					<Route path="/books/:id" component={BookDetails} />
+
+					<Route path="/not-found" render={() => <h1>Not Found</h1>} />
+					<Redirect from="/" exact to="/books" />
+					<Redirect to="/not-found" />
+				</Switch>
+			</main>
 		</React.Fragment>
 	);
 }

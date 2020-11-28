@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Book.css";
 
 const Book = ({
@@ -9,6 +10,7 @@ const Book = ({
 	amazonUrl,
 	contributor,
 	description,
+	isbn,
 }) => {
 	return (
 		<div className="card-new">
@@ -20,9 +22,12 @@ const Book = ({
 					<h5 className="card-title">{title}</h5>
 					<h6 className="card-subtitle mb-2 text-muted">{contributor}</h6>
 				</div>
-				<a href="/" className="btn btn-sm btn-primary">
+				{/* <a href="/" className="btn btn-sm btn-primary">
 					more details
-				</a>
+				</a> */}
+				<Link to={`/books/${isbn}`} className="btn btn-sm btn-primary">
+					More details
+				</Link>
 			</div>
 		</div>
 	);

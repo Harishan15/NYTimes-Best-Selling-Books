@@ -24,6 +24,7 @@ class BookList extends Component {
 						<Book
 							key={book.primary_isbn13}
 							title={book.title}
+							isbn={book.primary_isbn13}
 							imgUrl={book.book_image}
 							imgHeight={book.book_image_height}
 							imgWidth={book.book_image_width}

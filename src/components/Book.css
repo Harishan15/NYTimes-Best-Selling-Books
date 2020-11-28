@@ -5,9 +5,7 @@
 	padding-top: 15px;
 	min-width: 200px;
 	margin: 10px;
-	/* display: -ms-flexbox; */
 	display: flex;
-	/* -ms-flex-direction: column; */
 	flex-direction: column;
 	word-wrap: break-word;
 	background-color: #fff;
@@ -39,10 +37,6 @@
 	display: flex;
 	flex-wrap: wrap;
 }
-/* 
-.card-new-body > div {
-	min-height: 30px;
-} */
 
 .card-title {
 	font-size: 16px;
