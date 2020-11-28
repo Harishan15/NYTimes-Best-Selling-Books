@@ -16,8 +16,10 @@ const Book = ({
 				<img src={imgUrl} className="card-new-img" alt={title} />
 			</div>
 			<div className="card-new-body">
-				<h5 className="card-title">{title}</h5>
-				<h6 className="card-subtitle mb-2 text-muted">{contributor}</h6>
+				<div>
+					<h5 className="card-title">{title}</h5>
+					<h6 className="card-subtitle mb-2 text-muted">{contributor}</h6>
+				</div>
 				<a href="/" className="btn btn-sm btn-primary">
 					more details
 				</a>
