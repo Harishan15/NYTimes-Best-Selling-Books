@@ -1,4 +1,5 @@
 import React from "react";
+import "./Book.css";
 
 const Book = ({
 	imgUrl,
@@ -10,25 +11,16 @@ const Book = ({
 	description,
 }) => {
 	return (
-		<div className="col d-flex justify-content-center">
-			<div className="card book-card mb-3">
-				<img
-					src={imgUrl}
-					className="card-img-top"
-					// height={imgHeight}
-					// width={imgWidth}
-					alt={title}
-				/>
-				<div className="card-body">
-					<h5 className="card-title">{title}</h5>
-					{/* <p className="card-text">{contributor}</p> */}
-					<h6 className="card-subtitle mb-2 text-muted">{contributor}</h6>
-
-					<p className="card-text">{description}</p>
-					<a href={amazonUrl} className="btn btn-primary">
-						Buy the Book
-					</a>
-				</div>
+		<div className="card-new">
+			<div className="card-new-imgbody">
+				<img src={imgUrl} className="card-new-img" alt={title} />
+			</div>
+			<div className="card-new-body">
+				<h5 className="card-title">{title}</h5>
+				<h6 className="card-subtitle mb-2 text-muted">{contributor}</h6>
+				<a href="/" className="btn btn-sm btn-primary">
+					more details
+				</a>
 			</div>
 		</div>
 	);

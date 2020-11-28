@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Book from "./NewBook";
+import Book from "./Book";
 import { getBookListData } from "../services/httpService";
-import "./NewBook.css";
+import "./Book.css";
 
 class BookList extends Component {
 	state = {
