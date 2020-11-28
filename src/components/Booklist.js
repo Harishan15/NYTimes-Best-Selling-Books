@@ -16,7 +16,7 @@ class BookList extends Component {
 
 	render() {
 		return (
-			<div className="row">
+			<div className="row justify-content-center mx-1">
 				{this.state.books.map((book) => {
 					console.log(book.title);
 					return (
