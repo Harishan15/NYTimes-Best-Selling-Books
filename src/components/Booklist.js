@@ -16,9 +16,7 @@ class BookList extends Component {
 
 	render() {
 		return (
-			<div>
-				<h1>NYTimes Best Selling Books</h1>
-
+			<div className="row">
 				{this.state.books.map((book) => {
 					console.log(book.title);
 					return (
