@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# Getting Started with New York Times Best Sellers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To Run this website :
 
-## Available Scripts
+Installation 
 
-In the project directory, you can run:
+- Run from source:
+
+  ```sh
+  git clone https://github.com/Harishan15/NYTimes-Best-Selling-Books.git
+  cd nytimes-best-selling-books
+  npm start
+  ```
 
 ### `npm start`
 
