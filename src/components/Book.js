@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Params from "query-params";
 import "./Book.css";
 
 const Book = ({ bookData, id }) => {
@@ -19,11 +20,13 @@ const Book = ({ bookData, id }) => {
 						{bookData.contributor}
 					</h6>
 				</div>
+				{console.log("Bookdata : ", bookData)}
+				{console.log("Bookdata : ", Params.encode(bookData))}
 
 				<Link
 					to={{
-						pathname: `/books/${id}`,
-						state: { bookData },
+						pathname: `/books/${Params.encode(bookData)}`,
+						// state: { bookData },
 					}}
 					className="btn btn-sm btn-primary"
 				>

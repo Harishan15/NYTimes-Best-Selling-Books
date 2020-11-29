@@ -1,14 +1,18 @@
 import React, { Component } from "react";
+import Params from "query-params";
 import "./BookDetails.css";
 
 class BookDetails extends Component {
 	render() {
 		// const ID = this.props.match.params.id;
-		const BookData = this.props.location.state.bookData;
+		// const BookData = this.props.location.state.bookData;
+		// console.log(this.props.location.state);
+		const BookData = Params.decode(this.props.match.params.id);
+		console.log(BookData);
 
 		return (
 			<div>
-				<h1>Book details - {this.props.match.params.id}</h1>
+				<h1>Book details - {}</h1>
 				<div className="row">
 					<div className="col-4">
 						<img src={BookData.book_image} alt="alt-name" />
