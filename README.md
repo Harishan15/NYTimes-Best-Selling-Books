@@ -1,10 +1,6 @@
 # Getting Started with New York Times Best Sellers
 
-To Run this website :
-
-Installation 
-
-- Run from source:
+To run this Application
 
   ```sh
   git clone https://github.com/Harishan15/NYTimes-Best-Selling-Books.git
