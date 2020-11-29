@@ -5,6 +5,7 @@
   ```sh
   git clone https://github.com/Harishan15/NYTimes-Best-Selling-Books.git
   cd nytimes-bestbooks-app
+  npm install
   npm start
   
   
