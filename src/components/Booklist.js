@@ -22,7 +22,7 @@ class BookList extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Heading>New York Times Best Sellers</Heading>
+				<Heading>The New York Times Best Sellers</Heading>
 				<h2 className="book-sub-head">
 					Top 15 Best Selling books - Hardcover Non Fiction
 				</h2>

@@ -7,7 +7,7 @@ class BookDetails extends Component {
 		const BookData = Params.decode(this.props.match.params.id);
 		return (
 			<React.Fragment>
-				<h1 className="book-head">New York Times Best Sellers</h1>
+				<h1 className="book-head">The New York Times Best Sellers</h1>
 				<h2 className="book-sub-head">Book details - Hardcover Non Fiction</h2>
 
 				<div className="custom-container row flex-wrap">
