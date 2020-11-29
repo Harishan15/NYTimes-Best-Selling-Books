@@ -20,14 +20,9 @@ const Book = ({ bookData, id }) => {
 						{bookData.contributor}
 					</h6>
 				</div>
-				{console.log("Bookdata : ", bookData)}
-				{console.log("Bookdata : ", Params.encode(bookData))}
 
 				<Link
-					to={{
-						pathname: `/books/${Params.encode(bookData)}`,
-						// state: { bookData },
-					}}
+					to={`/books/${Params.encode(bookData)}`}
 					className="btn btn-sm btn-primary"
 				>
 					More details

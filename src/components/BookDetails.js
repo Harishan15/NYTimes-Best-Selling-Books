@@ -4,11 +4,7 @@ import "./BookDetails.css";
 
 class BookDetails extends Component {
 	render() {
-		// const ID = this.props.match.params.id;
-		// const BookData = this.props.location.state.bookData;
-		// console.log(this.props.location.state);
 		const BookData = Params.decode(this.props.match.params.id);
-		console.log(BookData);
 
 		return (
 			<div>
