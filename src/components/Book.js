@@ -19,13 +19,16 @@ const Book = ({ bookData, id }) => {
 						{bookData.contributor}
 					</h6>
 				</div>
-				{/* <a href="/" className="btn btn-sm btn-primary">
-					more details
-				</a> */}
-				<Link to={`/books/${id}`} className="btn btn-sm btn-primary">
+
+				<Link
+					to={{
+						pathname: `/books/${id}`,
+						state: { bookData },
+					}}
+					className="btn btn-sm btn-primary"
+				>
 					More details
 				</Link>
-				{console.log("bookData", bookData.title)}
 			</div>
 		</div>
 	);

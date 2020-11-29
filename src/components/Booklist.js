@@ -14,8 +14,6 @@ class BookList extends Component {
 		const { data } = await getBookListData();
 		const books = data.results.books;
 		this.setState({ books });
-		console.log("Result Books : ", books);
-		console.log("Result State : ", this.state.books);
 	}
 
 	render() {
@@ -24,7 +22,6 @@ class BookList extends Component {
 				<Heading />
 				<div className="d-flex flex-wrap card-pos">
 					{this.state.books.map((book, index) => {
-						console.log(book.title);
 						return (
 							<Book key={book.primary_isbn13} id={index} bookData={book} />
 						);
