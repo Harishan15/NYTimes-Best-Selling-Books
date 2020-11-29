@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Harishan15/NYTimes-Best-Selling-Books/static/css/main.2898b38d.chunk.css",
+    "main.js": "/Harishan15/NYTimes-Best-Selling-Books/static/js/main.037ceb3b.chunk.js",
+    "main.js.map": "/Harishan15/NYTimes-Best-Selling-Books/static/js/main.037ceb3b.chunk.js.map",
+    "runtime-main.js": "/Harishan15/NYTimes-Best-Selling-Books/static/js/runtime-main.56212dd3.js",
+    "runtime-main.js.map": "/Harishan15/NYTimes-Best-Selling-Books/static/js/runtime-main.56212dd3.js.map",
+    "static/css/2.dd89dc51.chunk.css": "/Harishan15/NYTimes-Best-Selling-Books/static/css/2.dd89dc51.chunk.css",
+    "static/js/2.bee4ef16.chunk.js": "/Harishan15/NYTimes-Best-Selling-Books/static/js/2.bee4ef16.chunk.js",
+    "static/js/2.bee4ef16.chunk.js.map": "/Harishan15/NYTimes-Best-Selling-Books/static/js/2.bee4ef16.chunk.js.map",
+    "static/js/3.76e281df.chunk.js": "/Harishan15/NYTimes-Best-Selling-Books/static/js/3.76e281df.chunk.js",
+    "static/js/3.76e281df.chunk.js.map": "/Harishan15/NYTimes-Best-Selling-Books/static/js/3.76e281df.chunk.js.map",
+    "index.html": "/Harishan15/NYTimes-Best-Selling-Books/index.html",
+    "static/css/2.dd89dc51.chunk.css.map": "/Harishan15/NYTimes-Best-Selling-Books/static/css/2.dd89dc51.chunk.css.map",
+    "static/css/main.2898b38d.chunk.css.map": "/Harishan15/NYTimes-Best-Selling-Books/static/css/main.2898b38d.chunk.css.map",
+    "static/js/2.bee4ef16.chunk.js.LICENSE.txt": "/Harishan15/NYTimes-Best-Selling-Books/static/js/2.bee4ef16.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/Harishan15/NYTimes-Best-Selling-Books/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56212dd3.js",
+    "static/css/2.dd89dc51.chunk.css",
+    "static/js/2.bee4ef16.chunk.js",
+    "static/css/main.2898b38d.chunk.css",
+    "static/js/main.037ceb3b.chunk.js"
+  ]
+}
