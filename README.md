@@ -8,3 +8,8 @@ To run this Application
   npm start
   open this url in browser [http://localhost:3000](http://localhost:3000)
   ```
+![alt text](https://github.com/Harishan15/NYTimes-Best-Selling-Books/blob/main/src/images/Screenshot%20(394).png)
+
+![alt text](https://github.com/Harishan15/NYTimes-Best-Selling-Books/blob/main/src/images/Screenshot%20(394).png)
+
+![alt text](https://github.com/Harishan15/NYTimes-Best-Selling-Books/blob/main/src/images/Screenshot%20(394).png)
