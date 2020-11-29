@@ -1,12 +1,12 @@
 # Getting Started with New York Times Best Sellers
 
-### Getting Started
+
+### To run this Application
 
 Clone this repository locally:
 ``` bash
 git clone https://github.com/Harishan15/NYTimes-Best-Selling-Books.git
 ```
-
 
 Go to the directory and Install dependencies with npm:
 ``` bash
@@ -19,12 +19,6 @@ Finally start the server and open this url in browser http://localhost:3000 :
 npm start
 ```
 
-
-### To run this Application
-
-  ```sh
-  npm start
-  ```
   
 ## Screenshots
 
