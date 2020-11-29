@@ -54,7 +54,7 @@
 /* Extra Extra small devices (portrait phones, less than 370px) */
 @media (max-width: 370px) {
 	.card-new {
-		width: 300px;
+		width: 270px;
 	}
 
 	.card-pos {
@@ -65,7 +65,7 @@
 /* Extra Small devices (landscape phones, 370px and up) */
 @media (min-width: 370px) and (max-width: 575.98px) {
 	.card-new {
-		width: 370px;
+		width: 250px;
 	}
 
 	.card-pos {

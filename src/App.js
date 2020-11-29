@@ -3,12 +3,14 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import BookList from "./components/BookList";
 import Navbar from "./components/Navbar";
 import BookDetails from "./components/BookDetails";
+// import NavList from "./components/NavList";
 import "./App.css";
 
 function App() {
 	return (
 		<React.Fragment>
 			<Navbar />
+			{/* <NavList /> */}
 			<main className="container-fluid mt-2">
 				<Switch>
 					<Route path="/books" exact component={BookList} />

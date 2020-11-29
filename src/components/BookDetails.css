@@ -1,0 +1,164 @@
+.book-img {
+	width: 250px;
+	height: 400px;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+}
+
+.img-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+.details-container {
+	margin-bottom: 20px;
+	padding: 20px 25px;
+}
+
+.custom-container {
+	font-family: Playfair Display;
+	font-family: Rubik, sans-serif;
+	/* font-family: "Oswald", sans-serif; */
+	/* font-family: "Roboto", sans-serif; */
+	font-size: 1rem;
+}
+.custom-label,
+.custom-label-title {
+	font-family: "Noto Serif", serif;
+	font-family: Rubik, sans-serif;
+	/* font-style: ; */
+	font-weight: 400;
+	font-size: 14px;
+}
+
+p.col-6 {
+	margin-top: -2px;
+}
+
+.book-title {
+	font-size: 30px;
+	margin-bottom: 0px;
+	margin-left: -1px;
+}
+
+.book-desc {
+	font-family: "Noto Serif", serif;
+	font-family: Rubik, sans-serif;
+	/* font-family: Playfair Display; */
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 15px;
+	margin-top: 5px;
+}
+
+.book-sub-head {
+	font-family: Playfair Display;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.book-head {
+	font-family: Playfair Display;
+	font-size: 30px;
+	margin-left: 10px;
+}
+/* ------------------------------------------------------------------------- */
+
+/* Extra Extra small devices (portrait phones, less than 370px) */
+@media (max-width: 370px) {
+	.book-img {
+		width: 150px;
+		height: 220px;
+	}
+}
+
+/* Extra Small devices (landscape phones, 370px and up) */
+@media (min-width: 370px) and (max-width: 575.98px) {
+	.book-img {
+		width: 200px;
+		height: 320px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.book-img {
+		width: 150px;
+		height: 230px;
+	}
+
+	.img-container {
+		display: flex;
+		align-items: flex-start;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		padding-top: 10px;
+		justify-content: center;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.book-img {
+		width: 210px;
+		height: 340px;
+	}
+
+	.img-container {
+		display: flex;
+		align-items: flex-start;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		/* padding-top: 10px; */
+		justify-content: center;
+	}
+
+	.details-container {
+		padding-right: 40px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.book-img {
+		width: 210px;
+		height: 320px;
+	}
+
+	.img-container {
+		display: flex;
+		align-items: flex-start;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		/* padding-top: 10px; */
+		justify-content: center;
+	}
+
+	.details-container {
+		padding-right: 40px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.book-img {
+		width: 210px;
+		height: 320px;
+	}
+
+	.img-container {
+		display: flex;
+		align-items: flex-start;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		justify-content: center;
+	}
+
+	.details-container {
+		padding-right: 50px;
+	}
+}

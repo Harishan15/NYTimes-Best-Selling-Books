@@ -21,12 +21,14 @@ const Book = ({ bookData, id }) => {
 					</h6>
 				</div>
 
-				<Link
-					to={`/books/${Params.encode(bookData)}`}
-					className="btn btn-sm btn-primary"
-				>
-					More details
-				</Link>
+				<div className="d-flex flex-wrap justify-content-flex-between">
+					<Link
+						to={`/books/${Params.encode(bookData)}`}
+						className="btn btn-sm btn-primary"
+					>
+						More details
+					</Link>
+				</div>
 			</div>
 		</div>
 	);

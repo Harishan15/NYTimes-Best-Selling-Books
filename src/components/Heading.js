@@ -7,6 +7,7 @@ const Heading = (props) => {
 				fontFamily: "Playfair Display",
 				fontSize: "2rem",
 				marginLeft: "10px",
+				marginBottom: "20px",
 			}}
 		>
 			{props.children}
