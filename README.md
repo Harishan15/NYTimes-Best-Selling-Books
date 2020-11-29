@@ -10,6 +10,6 @@ To run this Application
   ```
 ![alt text](https://github.com/Harishan15/NYTimes-Best-Selling-Books/blob/main/src/images/Screenshot%20(394).png)
 
-![alt text](https://github.com/Harishan15/NYTimes-Best-Selling-Books/blob/main/src/images/Screenshot%20(394).png)
+![alt text](https://github.com/Harishan15/NYTimes-Best-Selling-Books/blob/main/src/images/Screenshot%20(395).png)
 
-![alt text](https://github.com/Harishan15/NYTimes-Best-Selling-Books/blob/main/src/images/Screenshot%20(394).png)
+![alt text](https://github.com/Harishan15/NYTimes-Best-Selling-Books/blob/main/src/images/Screenshot%20(396).png)
