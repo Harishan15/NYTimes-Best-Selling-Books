@@ -19,7 +19,7 @@ class BookList extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Heading />
+				<Heading>New York Times Best Selling Books</Heading>
 				<div className="d-flex flex-wrap card-pos">
 					{this.state.books.map((book, index) => {
 						return (

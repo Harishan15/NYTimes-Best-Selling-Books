@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Params from "query-params";
+import Heading from "./Heading";
 import "./BookDetails.css";
 
 class BookDetails extends Component {
@@ -7,8 +8,8 @@ class BookDetails extends Component {
 		const BookData = Params.decode(this.props.match.params.id);
 
 		return (
-			<div>
-				<h1>Book details - {}</h1>
+			<React.Fragment>
+				<Heading>Books details</Heading>
 				<div className="row">
 					<div className="col-4">
 						<img src={BookData.book_image} alt="alt-name" />
@@ -28,7 +29,7 @@ class BookDetails extends Component {
 						</a>
 					</div>
 				</div>
-			</div>
+			</React.Fragment>
 		);
 	}
 }

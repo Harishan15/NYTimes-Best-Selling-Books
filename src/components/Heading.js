@@ -1,6 +1,6 @@
 import React from "react";
 
-const Heading = () => {
+const Heading = (props) => {
 	return (
 		<h1
 			style={{
@@ -9,7 +9,7 @@ const Heading = () => {
 				marginLeft: "10px",
 			}}
 		>
-			New York Times Best Selling Books
+			{props.children}
 		</h1>
 	);
 };
