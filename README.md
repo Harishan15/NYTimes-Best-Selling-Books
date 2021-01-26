@@ -1,7 +1,7 @@
 # Getting Started with New York Times Best Sellers
 
 
-### To run this Application
+### To run this Application (in Development mode)
 
 Clone this repository locally:
 ``` bash
